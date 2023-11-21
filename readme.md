@@ -6,7 +6,8 @@
 同名のbatファイルはpython内のログが表示されないので使用しない  
 books, user, historyテーブル作成時に生成されるデータはcsvフォルダに格納される  
 
-### 発火方法：発火スクリプトのパスに移動し、python createBookDB.py
+### 発火方法：cmdから発火スクリプトのパスに移動し、
+    python createBookDB.py
 ※DBのユーザ、パスワードは合わせる必要がある  
 ※必要なモジュールはpipでインストールする必要がある
 
