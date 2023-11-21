@@ -6,9 +6,31 @@
 同名のbatファイルはpython内のログが表示されないので使用しない  
 books, user, historyテーブル作成時に生成されるデータはcsvフォルダに格納される  
 
-### 発火方法：cmdから発火スクリプトのパスに移動し、
-    python createBookDB.py
-※DBのユーザ、パスワードは以下に合わせる必要がある  
+<br>
+<br>
+<br>
+
+### 発火方法  
+cmdから発火スクリプトのパスに移動し、以下を実行して下さい
+```
+python createBookDB.py
+```
+<br>
+<br>
+以下のようなログが出力されます  
+
+
+![image](https://github.com/esx11954/bookdb-py/assets/42484592/e6f28103-e2a0-4ef4-afcb-608c4a8855c4)
+
+
+***※エラーが出る場合は以下の設定を見直して下さい***
+
+<br>
+<br>
+<br>
+
+### DBのユーザ、パスワードは以下に合わせる必要がある  
+---
 | user  | password |
 | ----- |--------- |
 | root  | root     |
@@ -19,9 +41,12 @@ books, user, historyテーブル作成時に生成されるデータはcsvフォ
 user='root',
 password='root', 
 ```
+<br>
+<br>
+<br>
 
-※必要なモジュールはpipでインストールする必要がある
-
+### 必要なモジュールはpipでインストールする必要がある  
+---
 
 
 ### 必要モジュール：
@@ -36,3 +61,9 @@ mysql.connector
 ```cmd
 pip install mysql-connector-python
 ```
+
+
+
+
+
+
