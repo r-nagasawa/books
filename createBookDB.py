@@ -5,6 +5,7 @@ from user import insertUser_callable
 from history import insertHistory_callable
 from genre import insertGenre_callable
 from status import insertStatus_callable
+from login import insertLogin
 
 if __name__ == '__main__':
     print('処理開始')
@@ -28,6 +29,8 @@ if __name__ == '__main__':
     insertGenre_callable.create_genre(cursor)
     print(border)
     insertStatus_callable.create_status(cursor)
+    print(border)
+    insertLogin.create_login_table(cursor)
     print(border)
     
     
